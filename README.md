@@ -1,5 +1,3 @@
-
-```
 # VibraSafe
 
 VibraSafe is an assistive application designed to help people with hearing impairments by classifying real-world sounds using machine learning.  
@@ -49,7 +47,7 @@ vibrasafe/
    cd backend
    pip install -r requirements.txt
 
-```
+
 
 2.  Download and place the **UrbanSound8K** dataset in the appropriate location (see `train_model.py` for details).
     
@@ -151,8 +149,4 @@ vibrasafe/
 
 MIT License. See LICENSE for details.
 
-```
 
-Do you also want me to include an **ASCII-style system diagram** (so it stays pure Markdown, no external images) showing how audio flows from Android → Backend → ML → Android?
-
-```
