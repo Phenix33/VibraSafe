@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hearing Aid</string>
+    <string name="start_listening">Start Listening</string>
+    <string name="stop_listening">Stop Listening</string>
+    <string name="processing">Processing...</string>
+    <string name="connecting">Connecting to server...</string>
+    <string name="connected">Connected</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="permission_required">Microphone permission is required</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="recording_error">Failed to record audio</string>
+    <string name="classification_error">Failed to classify audio</string>
+    <string name="confidence_format">Confidence: %.1f%%</string>
+    <string name="last_detection">Last Detection:</string>
+    <string name="none">None</string>
+    <string name="settings">Settings</string>
+
+    <!-- Sound class descriptions -->
+    <string name="air_conditioner_desc">Air conditioner running</string>
+    <string name="car_horn_desc">Vehicle horn - Be aware of traffic</string>
+    <string name="children_playing_desc">Children playing nearby</string>
+    <string name="dog_bark_desc">Dog barking</string>
+    <string name="drilling_desc">Construction drilling</string>
+    <string name="engine_idling_desc">Vehicle engine running</string>
+    <string name="gun_shot_desc">DANGER: Gunshot detected - Seek safety</string>
+    <string name="jackhammer_desc">Construction jackhammer</string>
+    <string name="siren_desc">Emergency siren - Move to safety</string>
+    <string name="street_music_desc">Street music playing</string>
+</resources>

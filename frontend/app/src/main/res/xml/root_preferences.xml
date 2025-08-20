@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Server Settings">
+
+        <EditTextPreference
+            android:key="server_url"
+            android:title="Server URL"
+            android:summary="Backend server address"
+            android:defaultValue="http://10.0.2.2:5000/"
+            android:inputType="textUri" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Feedback Settings">
+
+        <SwitchPreferenceCompat
+            android:key="vibration_enabled"
+            android:title="Vibration Feedback"
+            android:summary="Enable haptic feedback for alerts"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="visual_feedback_enabled"
+            android:title="Visual Feedback"
+            android:summary="Enable screen flashing for alerts"
+            android:defaultValue="true" />
+
+        <SeekBarPreference
+            android:key="sensitivity"
+            android:title="Alert Sensitivity"
+            android:summary="Minimum confidence level for alerts"
+            android:defaultValue="70"
+            android:max="100"
+            android:min="10"
+            app:showSeekBarValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Recording Settings">
+
+        <SwitchPreferenceCompat
+            android:key="auto_record"
+            android:title="Continuous Listening"
+            android:summary="Automatically start recording after classification"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="record_duration"
+            android:title="Recording Duration"
+            android:summary="How long to record audio samples"
+            android:entries="@array/duration_entries"
+            android:entryValues="@array/duration_values"
+            android:defaultValue="4000" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
