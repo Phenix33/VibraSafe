@@ -36,8 +36,6 @@ vibrasafe/
 
 ````
 
----
-
 ## Setup Instructions
 
 ### 1. Train the Model (Backend)
