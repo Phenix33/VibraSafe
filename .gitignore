@@ -1,0 +1,14 @@
+    *.apk
+    *.aar
+    *.ap_
+    *.aab
+    frontend/bin/
+    frontend/gen/
+    frontend/out/
+    frontend/.gradle/
+    frontend/local.properties
+    frontend/caches/
+    frontend/.idea/*
+    frontend/.kotlin/*
+    frontend/gradle/*
+    frontend/app/build/*
